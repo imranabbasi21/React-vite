@@ -1,0 +1,47 @@
+/* Import Font Awesome styles */
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+
+.fa-linkedin-in .fa-brands .fa-facebook-f{
+  --fa: "\f0e1";
+  margin: 9px;
+}
+
+.para{
+padding-top:40px;
+padding-bottom:40px;
+}
+.zoom-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  transition: transform 0.3s ease, font-size 0.3s ease;
+}
+
+
+
+.zoom-paragraph:hover {
+  transform: scale(1.2);  
+  font-size: 20px;   
+  color: #333;            
+}
+.profile-card {
+  width: 300px;
+  padding: 20px;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: aliceblue;
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.socialIcons{
+  display: flex;
+  justify-content: space-around;
+}

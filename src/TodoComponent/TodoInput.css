@@ -1,0 +1,13 @@
+.inputBox-Top{
+    padding: 8px 35px;
+  }
+  .AddBtn{
+    border-radius: 50px;
+    background-color: rgb(72, 72, 245);
+    height: 40px;
+    width: 40px;
+    margin-left: 12px;
+    color: white;
+    font-size: 20px;
+    padding: 0;
+}
